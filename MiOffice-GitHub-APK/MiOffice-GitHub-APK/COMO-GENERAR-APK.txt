@@ -1,0 +1,9 @@
+Mi Office - APK de demostracion con GitHub Actions
+
+1. Crea un repositorio PRIVADO en github.com/new con rama principal main.
+2. Extrae este ZIP y sube LOS ARCHIVOS Y CARPETAS DE SU INTERIOR a la raiz del repositorio (incluye la carpeta oculta .github). Para conservar .github, usa Git o la interfaz de GitHub y revisa que aparezca .github/workflows/android-apk.yml.
+3. Abre Actions > Generar APK Mi Office > Run workflow > Run workflow.
+4. Cuando termine con exito, abre la ejecucion y descarga el artefacto MiOffice-APK.
+5. Descomprime lo descargado para obtener app-debug.apk e instalalo en tu Android si confias en el archivo. Android puede pedir permiso para instalar apps de origen externo.
+
+Importante: Este proyecto es una demo local, no una app de produccion. La compilacion NO se ha probado aqui. No hay pagos ni registro real.

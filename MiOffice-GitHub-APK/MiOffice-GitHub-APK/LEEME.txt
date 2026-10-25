@@ -1,0 +1,10 @@
+MI OFFICE - Proyecto Android de demostración
+
+1. Instala Android Studio.
+2. Abre esta carpeta (File > Open).
+3. Espera la sincronización Gradle (requiere Internet para descargar dependencias).
+4. Selecciona Build > Build Bundle(s) / APK(s) > Build APK(s).
+5. El APK de prueba aparecerá en app/build/outputs/apk/debug/app-debug.apk.
+6. Transfiere ese APK a un Android para instalarlo. Android puede solicitar autorizar la instalación desde esa fuente.
+
+Esta app envuelve la demo HTML local. No incluye pagos, GPS ni autenticación real. Los datos se almacenan localmente en el navegador WebView del dispositivo.
